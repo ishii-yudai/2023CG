@@ -1,0 +1,71 @@
+/* UTF-8エンコーディング */
+@charset "UTF-8";
+
+/* body内のp要素にスタイルを適用 */
+body p {
+    border: 10px solid #FF0000;
+    padding: 15px;
+    margin: 20px;
+}
+
+/* keywordクラスのスタイル */
+.keyword {
+    color: #FF0055;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+/* 追加のスタイル */
+body {
+    font-family: 'メイリオ', sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 3px solid #FF0000;
+    padding-bottom: 10px;
+}
+```
+
+3. **CSSファイルを保存**
+   - `ファイル` → `保存`
+   - ファイル名：`lesson1_css.css`
+   - **重要**: HTMLファイルと同じフォルダに保存
+
+### 4. **Dreamweaverの便利な機能の使い方**
+
+#### **ライブビュー機能**
+1. 画面上部の`ライブ`ボタンをクリック
+2. リアルタイムでデザインを確認しながら編集可能
+
+#### **分割ビュー**
+1. 表示タブから`分割`を選択
+2. コードとデザインを同時に確認
+
+#### **CSSデザイナーパネル**
+1. `ウィンドウ` → `CSSデザイナー`
+2. 視覚的にCSSプロパティを編集：
+   - セレクターを選択
+   - プロパティをクリックして値を変更
+   - カラーピッカーで色を選択
+
+### 5. **プレビューと確認**
+
+1. **ブラウザでプレビュー**
+   - `ファイル` → `ブラウザでプレビュー`
+   - またはF12キー
+   - Chrome、Firefox、Edgeなどで確認
+
+2. **確認ポイント**
+   - p要素に赤い枠線（10px）が表示されているか
+   - keywordクラスのテキストが装飾されているか
+
+### 6. **GitHubへのアップロード準備**
+
+1. **フォルダ構成の確認**
+```
+   lesson1_css/
+   ├── index.html
+   └── lesson1_css.css
