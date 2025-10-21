@@ -1,0 +1,29 @@
+body {
+    background-color: #ffc0cb;
+}
+
+.shop img {
+    width: 100%;
+}
+
+.cakes-wrapper {
+    width: 100%; 
+	flex-wrap: wrap;
+	display: flex;
+}
+
+.cakes-wrapper img {
+    width: 100%; 
+}
+
+.left{
+	width: 50%;
+}
+
+.right{
+	width: 50%;
+}
+
+h1{
+	color: #800000;
+}
