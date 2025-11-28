@@ -1,26 +1,182 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta charset="utf-8">
-<title>課題2：CSSを用いたWebページ作ってみよう</title>
-<link href="sinki.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trattoria Felice | イタリアン・ビストロ</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>NSの講義</h1>
 
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">TF</div>
+        <div class="logo-text">
+          <span class="main-name">Trattoria Felice</span>
+          <span class="sub-name">Italian Bistro</span>
+        </div>
+      </a>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="active">ホーム</a></li>
+          <li><a href="menu.html">メニュー</a></li>
+          <li><a href="course.html">コース</a></li>
+          <li><a href="access.html">アクセス</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<p>担当 中村直人</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/こだわり3コース料理.jpg" alt="コース料理" class="hero-bg">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Trattoria Felice</h1>
+      <p class="tagline">— Authentic Italian Cuisine —</p>
+      <p class="description">
+        厳選された食材と伝統的なイタリア料理の技法で<br>
+        心温まるひとときをお届けします。<br>
+        ワインとともに、至福の時間をお過ごしください。
+      </p>
+    </div>
+  </section>
 
-<ol>
-  <li><a href="sano.html">情報数学基礎</a></li>
-  <li><a href="CG.html">コンピュータグラフィックス</a></li>
-  <li><a href="nannde.html">ビジュアルコンテンツデザイン</a></li>
-  
-  <li><a href="Untitled-1.html">ケーキ屋</a></li>
-  <li><a href="menu.html">メニュー</a></li>
-</ol>
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- About Section -->
+    <section class="section">
+      <h2 class="section-title">Our Story</h2>
+      <p class="section-subtitle">私たちのこだわり</p>
+
+      <div class="kodawari-grid">
+        <!-- こだわり1: 絶品パスタ -->
+        <article class="kodawari-card">
+          <div class="image-wrapper">
+            <img src="images/こだわり1絶品パスタ.jpg" alt="絶品パスタ">
+          </div>
+          <div class="card-content">
+            <span class="card-number">KODAWARI 01</span>
+            <h3>絶品パスタ</h3>
+            <p>イタリア直輸入のデュラム小麦を使用した自家製パスタ。もちもちとした食感と小麦本来の香りをお楽しみいただけます。ソースとの絡みも絶妙です。</p>
+          </div>
+        </article>
+
+        <!-- こだわり2: 新鮮な前菜 -->
+        <article class="kodawari-card">
+          <div class="image-wrapper">
+            <img src="images/こだわり2.jpg" alt="タコとオリーブの前菜">
+          </div>
+          <div class="card-content">
+            <span class="card-number">KODAWARI 02</span>
+            <h3>新鮮な前菜</h3>
+            <p>毎朝市場から届く新鮮な魚介類と、厳選されたオリーブやチーズ。シンプルながら素材の味を最大限に引き出した前菜の数々をご用意しています。</p>
+          </div>
+        </article>
+
+        <!-- こだわり3: コース料理 -->
+        <article class="kodawari-card">
+          <div class="image-wrapper">
+            <img src="images/こだわり3コース料理.jpg" alt="コース料理">
+          </div>
+          <div class="card-content">
+            <span class="card-number">KODAWARI 03</span>
+            <h3>特別なコース</h3>
+            <p>記念日やお祝いの席に最適なコース料理。前菜からデザートまで、シェフが腕をふるった一皿一皿が、特別なひとときを彩ります。</p>
+          </div>
+        </article>
+
+        <!-- こだわり4: ワインセレクション -->
+        <article class="kodawari-card">
+          <div class="image-wrapper">
+            <img src="images/こだわり2または4.jpg" alt="ワインセレクション">
+          </div>
+          <div class="card-content">
+            <span class="card-number">KODAWARI 04</span>
+            <h3>厳選ワイン</h3>
+            <p>イタリア各地から厳選したワインを豊富に取り揃えています。お料理との相性を考え、ソムリエがお客様に最適な一本をご提案いたします。</p>
+          </div>
+        </article>
+
+        <!-- こだわり5: チーズ -->
+        <article class="kodawari-card">
+          <div class="image-wrapper">
+            <img src="images/こだわり5__2_.jpg" alt="チーズ盛り合わせ">
+          </div>
+          <div class="card-content">
+            <span class="card-number">KODAWARI 05</span>
+            <h3>本場のチーズ</h3>
+            <p>ゴルゴンゾーラ、パルミジャーノ、ブリーなど、イタリア・フランス産の上質なチーズをワインのお供に。ドライフルーツとの相性も抜群です。</p>
+          </div>
+        </article>
+
+        <!-- こだわり6: 前菜盛り合わせ -->
+        <article class="kodawari-card">
+          <div class="image-wrapper">
+            <img src="images/こだわり1.jpg" alt="前菜盛り合わせ">
+          </div>
+          <div class="card-content">
+            <span class="card-number">KODAWARI 06</span>
+            <h3>彩り豊かな前菜</h3>
+            <p>季節の野菜をふんだんに使った前菜盛り合わせ。キャロットラペ、半熟卵、自家製サラミなど、見た目にも美しい一皿をどうぞ。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section text-center">
+      <h2 class="section-title">Reservation</h2>
+      <p class="section-subtitle">ご予約・お問い合わせ</p>
+      <p class="mb-2">お電話または店頭にてご予約を承っております。<br>コース料理は前日までのご予約をお願いいたします。</p>
+      <p style="font-family: var(--font-display); font-size: 2rem; color: var(--color-wine); letter-spacing: 0.1em;">
+        03-1234-5678
+      </p>
+      <p class="mt-1" style="color: var(--color-text-light);">営業時間 11:30〜14:30 / 18:00〜22:00</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon">TF</div>
+            <div class="logo-text">
+              <span class="main-name">Trattoria Felice</span>
+              <span class="sub-name">Italian Bistro</span>
+            </div>
+          </div>
+          <p>厳選された食材と伝統的なイタリア料理の技法で、心温まるひとときをお届けします。</p>
+        </div>
+        <div>
+          <h4>Menu</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="menu.html">メニュー</a></li>
+            <li><a href="course.html">コース</a></li>
+            <li><a href="access.html">アクセス</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Info</h4>
+          <ul class="footer-links">
+            <li>〒123-4567</li>
+            <li>東京都千代田区○○1-2-3</li>
+            <li>TEL: 03-1234-5678</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Trattoria Felice. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
-
-
